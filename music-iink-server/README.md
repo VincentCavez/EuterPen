@@ -2,7 +2,7 @@
 
 Music iink server is a Web service that runs the MyScript engine configured with a custom grammar for the modern staff notation.
 
-It requires the Java application to be compiled using a valid certificate in `src/main/jaba/certificates/MyCertificate.java`
+It requires the Java application to be compiled using a valid certificate in `src/main/java/certificates/MyCertificate.java`
 
 ## Requirements
 
