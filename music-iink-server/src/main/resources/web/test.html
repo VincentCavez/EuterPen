@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MIIS Test</title>
+
+    <script type="text/javascript" src="js/miis-test.js"></script>
+    <script type="text/javascript" src="js/d3.v7.min.js"></script>
+
+    <style>
+svg {
+    border:1px solid #ddd;
+}
+
+.inkMark {
+    stroke:blue;
+}
+    </style>
+</head>
+
+<body onLoad="initInkCanvas()">
+    <div id="inkRegion">
+    </div>
+    <div>
+        <form>
+            <input type="button" value="Call MIIS" onclick="callMIIS();" id="execBt" />
+            <input type="button" value="Reset" onclick="resetCanvas();" id="resetBt" />
+        </form>
+    </div>
+    <div id="res">
+        ...
+    </div>
+</body>
+</html>
